@@ -1,0 +1,54 @@
+{
+  "modules": [
+    {
+      "id": "sample_module",
+      "name": "Sample Module",
+      "icon": "modules/sample_module/sample_module.png",
+      "latest": "1.2.0",
+      "versions": {
+        "1.0.0": {
+          "url": "modules/sample_module/sample_module_v1.0.0.zip",
+          "release_notes": "modules/sample_module/release_notes/v1.0.0.md"
+        },
+        "1.1.0": {
+          "url": "modules/sample_module/sample_module_v1.1.0.zip",
+          "release_notes": "modules/sample_module/release_notes/v1.1.0.md"
+        },
+        "1.2.0": {
+          "url": "modules/sample_module/sample_module_v1.2.0.zip",
+          "release_notes": "modules/sample_module/release_notes/v1.2.0.md"
+        }
+      }
+    },
+
+    {
+      "id": "cpp_tools",
+      "name": "C++ Tools",
+      "icon": "modules/cpp_tools/cpp_tools.png",
+      "latest": "1.1.0",
+      "versions": {
+        "1.0.0": {
+          "url": "modules/cpp_tools/cpp_tools_v1.0.0.zip",
+          "release_notes": "modules/cpp_tools/release_notes/v1.0.0.md"
+        },
+        "1.1.0": {
+          "url": "modules/cpp_tools/cpp_tools_v1.1.0.zip",
+          "release_notes": "modules/cpp_tools/release_notes/v1.1.0.md"
+        }
+      }
+    },
+
+    {
+      "id": "gui_patch",
+      "name": "GUI Patch",
+      "icon": "modules/gui_patch/gui_patch.png",
+      "latest": "2.0.0",
+      "versions": {
+        "2.0.0": {
+          "url": "modules/gui_patch/gui_patch_v2.0.0.zip",
+          "release_notes": "modules/gui_patch/release_notes/v2.0.0.md"
+        }
+      }
+    }
+  ]
+}
